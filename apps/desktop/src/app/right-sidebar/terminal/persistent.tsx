@@ -6,7 +6,6 @@ import { type CSSProperties, useEffect, useLayoutEffect, useRef, useState } from
 
 import { $chatId, $paneTree, $terminalLayouts, setActiveChatId } from '@/lib/terminal-store'
 
-import { TERMINAL_BG } from './selection'
 import { TerminalPanel } from './terminal-panel'
 
 /**
